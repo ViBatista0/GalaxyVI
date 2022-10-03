@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.navbar-brand {
+    font-size: 2rem !important;
+    color: #8BBCCC !important;
+}
+
+.navbar {
+    background-color: #16213E;
+}
+
+.nav-link {
+    color: #31E1F7 !important;
+}
+
+.nav-link:hover {
+    color: #E94560 !important;
+    transition: 0.3s;
+}
+
+.nav-item {
+    color: #8BBCCC;
+    font-weight: 400;
+    padding-left: 35px;
+}
+
+.btn0 {
+    height: 32px;
+    width: 90px;
+    outline: none;
+    border: none;
+    color: black;
+    cursor: pointer;
+    transition: all 0.4s;
+    background-color: #31E1F7;
+}
+
+.btn0:hover {
+    background-color: blueviolet;
+    transition: all 0.4s;
+}
+
+.btn1 {
+    height: 32px;
+    width: 90px;
+    background-color: transparent;
+    color: darkgreen;
+    transition: all 0.4s;
+    outline: none;
+    border: 2px solid blueviolet;
+}
+
+.btn1:hover {
+    background-color: #31E1F7;
+    transition: all 0.4s;
+    color: rgb(48, 48, 48);
+    border: none;
+    outline: none;
+}
+
+.main {
+    background: url(../img/back.webp) no-repeat;
+    background-size: cover;
+    
+    width: 100%;
+}
+
+.main h1 {
+    font-size: 5rem;
+    font-weight: 800;
+    color: chartreuse;
+    font-family: 'Space Mono', monospace;
+
+}
+
+.btn2 {
+    height: 40px;
+    width: 25%;
+    background-color: dimgray;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.4s;
+    margin-left: 150px;
+}
+
+.btn2:hover {
+    background-color: chartreuse;
+    color: black;
+    transition: all 0.4s;
+}
+
+.legenda {
+    color: rebeccapurple;
+}
+
+.ceta {
+    background-color: #100720;
+}
+
+.ceta h1 {
+    font-size: 3.5rem;
+    color: seagreen;
+}
+
+.ceta .card:hover {
+    color: orangered;
+    cursor: pointer;
+    transition: all 0.3s;
+    -webkit-box-shadow: 2px -11px 40px 1px rgba(135, 162, 251, 1);
+    -moz-box-shadow: 2px -11px 40px 1px rgba(135, 162, 251, 1);
+    box-shadow: 2px -11px 40px 1px rgba(135, 162, 251, 1);
+}
+
+.btn3 {
+    height: 70px;
+    width: 70%;
+    border: 1px solid royalblue;
+    background: transparent;
+    border-radius: 5px;
+    color: white;
+    transition: all 0.4s;
+}
+
+.btn3:hover {
+    background-color: #100720;
+    color: #31E1F7;
+    border: none;
+    outline: none;
+    transition: all 0.4s;
+}
+
+.eventos {
+    background:  url(../img/back2.jpg);
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+}
+
+.eventos h1 {
+    font-size: 3.8rem;
+}
